@@ -1,0 +1,11 @@
+# Firebase configuration file
+**/CPBLChatRoom/GoogleService-Info.plist
+
+# CocoaPods
+Pods/
+
+# macOS
+.DS_Store
+
+# Xcode
+build/

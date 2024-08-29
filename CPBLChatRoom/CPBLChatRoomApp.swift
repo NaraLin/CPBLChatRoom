@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct CPBLChatRoomApp: App {
+    
+    // register app delegate for Firebase setup
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject private var auth = MainViewViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(viewModel: MainViewViewModel())
+                .environmentObject(auth)
         }
     }
 }

@@ -7,18 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491124B82C69AA6B00D0B158 /* ChatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491124B72C69AA6B00D0B158 /* ChatDetailView.swift */; };
+		491124BA2C69D0AB00D0B158 /* ChatDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491124B92C69D0AB00D0B158 /* ChatDetailViewViewModel.swift */; };
+		491124BC2C69D51400D0B158 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491124BB2C69D51400D0B158 /* Message.swift */; };
+		491124BE2C6A539300D0B158 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491124BD2C6A539300D0B158 /* MessageView.swift */; };
+		491124C02C6AEE0900D0B158 /* BubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491124BF2C6AEE0800D0B158 /* BubbleShape.swift */; };
+		491124C22C6B681F00D0B158 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491124C12C6B681F00D0B158 /* Team.swift */; };
+		491124C42C6D9F9900D0B158 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491124C32C6D9F9900D0B158 /* ImagePicker.swift */; };
+		494BDAA02C74C14000642528 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BDA9F2C74C14000642528 /* ImageCache.swift */; };
+		494BDAA22C74C2CE00642528 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BDAA12C74C2CE00642528 /* CachedAsyncImage.swift */; };
+		49905BDE2C65A7BC00C0F558 /* CTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BDD2C65A7BC00C0F558 /* CTButton.swift */; };
+		49905BE32C65B05500C0F558 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BE22C65B05500C0F558 /* LoginViewViewModel.swift */; };
+		49905BE52C65C15F00C0F558 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BE42C65C15F00C0F558 /* RegisterViewViewModel.swift */; };
+		49905BE72C65C41200C0F558 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BE62C65C41200C0F558 /* User.swift */; };
+		49905BE92C65E67900C0F558 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BE82C65E67900C0F558 /* Extension.swift */; };
+		49905BEB2C65EEA500C0F558 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BEA2C65EEA500C0F558 /* MainViewViewModel.swift */; };
+		49905BED2C65F25D00C0F558 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BEC2C65F25D00C0F558 /* ChatView.swift */; };
+		49905BEF2C66428D00C0F558 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BEE2C66428D00C0F558 /* ProfileView.swift */; };
+		49905BF12C664D3E00C0F558 /* ChatViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BF02C664D3E00C0F558 /* ChatViewViewModel.swift */; };
+		49905BF32C664DEA00C0F558 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49905BF22C664DEA00C0F558 /* ProfileViewViewModel.swift */; };
 		49AD97F42C646CED001B1249 /* CPBLChatRoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD97F32C646CED001B1249 /* CPBLChatRoomApp.swift */; };
-		49AD97F62C646CED001B1249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD97F52C646CED001B1249 /* ContentView.swift */; };
 		49AD97F82C646CF5001B1249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AD97F72C646CF5001B1249 /* Assets.xcassets */; };
 		49AD97FB2C646CF5001B1249 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AD97FA2C646CF5001B1249 /* Preview Assets.xcassets */; };
+		49AD98062C64726D001B1249 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49AD98052C64726D001B1249 /* GoogleService-Info.plist */; };
+		49AD98082C647296001B1249 /* APPDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD98072C647296001B1249 /* APPDelegate.swift */; };
+		49AD980A2C6485C7001B1249 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD98092C6485C7001B1249 /* LoginView.swift */; };
+		49AD980C2C64ADC6001B1249 /* 圆体夏蝉丸ゴシック.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49AD980B2C64AC18001B1249 /* 圆体夏蝉丸ゴシック.ttf */; };
+		49AD980E2C64AED1001B1249 /* Monaco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49AD980D2C64AED1001B1249 /* Monaco.ttf */; };
+		49C15F452C64C36D0021090D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C15F442C64C36C0021090D /* MainView.swift */; };
+		49C15F472C64CAEB0021090D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C15F462C64CAEB0021090D /* RegisterView.swift */; };
+		CF47AE3E5CF3D84286C6BF7A /* Pods_CPBLChatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94AF3BA2EBA8CBF0C7878EF /* Pods_CPBLChatRoom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B4005A9E2AC6497644A08FB /* Pods-CPBLChatRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPBLChatRoom.debug.xcconfig"; path = "Target Support Files/Pods-CPBLChatRoom/Pods-CPBLChatRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		398034C6DAB8049030435E8F /* Pods-CPBLChatRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPBLChatRoom.release.xcconfig"; path = "Target Support Files/Pods-CPBLChatRoom/Pods-CPBLChatRoom.release.xcconfig"; sourceTree = "<group>"; };
+		491124B72C69AA6B00D0B158 /* ChatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailView.swift; sourceTree = "<group>"; };
+		491124B92C69D0AB00D0B158 /* ChatDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailViewViewModel.swift; sourceTree = "<group>"; };
+		491124BB2C69D51400D0B158 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		491124BD2C6A539300D0B158 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		491124BF2C6AEE0800D0B158 /* BubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
+		491124C12C6B681F00D0B158 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		491124C32C6D9F9900D0B158 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		494BDA9F2C74C14000642528 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		494BDAA12C74C2CE00642528 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		49905BDD2C65A7BC00C0F558 /* CTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTButton.swift; sourceTree = "<group>"; };
+		49905BE22C65B05500C0F558 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		49905BE42C65C15F00C0F558 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		49905BE62C65C41200C0F558 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		49905BE82C65E67900C0F558 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		49905BEA2C65EEA500C0F558 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		49905BEC2C65F25D00C0F558 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		49905BEE2C66428D00C0F558 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		49905BF02C664D3E00C0F558 /* ChatViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewViewModel.swift; sourceTree = "<group>"; };
+		49905BF22C664DEA00C0F558 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
 		49AD97F02C646CED001B1249 /* CPBLChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPBLChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AD97F32C646CED001B1249 /* CPBLChatRoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPBLChatRoomApp.swift; sourceTree = "<group>"; };
-		49AD97F52C646CED001B1249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49AD97F72C646CF5001B1249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49AD97FA2C646CF5001B1249 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49AD98052C64726D001B1249 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49AD98072C647296001B1249 /* APPDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPDelegate.swift; sourceTree = "<group>"; };
+		49AD98092C6485C7001B1249 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		49AD980B2C64AC18001B1249 /* 圆体夏蝉丸ゴシック.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "圆体夏蝉丸ゴシック.ttf"; sourceTree = "<group>"; };
+		49AD980D2C64AED1001B1249 /* Monaco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Monaco.ttf; sourceTree = "<group>"; };
+		49C15F412C64B6B20021090D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		49C15F442C64C36C0021090D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		49C15F462C64CAEB0021090D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		B94AF3BA2EBA8CBF0C7878EF /* Pods_CPBLChatRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPBLChatRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +81,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF47AE3E5CF3D84286C6BF7A /* Pods_CPBLChatRoom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C3587B1881256140AFE78B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B4005A9E2AC6497644A08FB /* Pods-CPBLChatRoom.debug.xcconfig */,
+				398034C6DAB8049030435E8F /* Pods-CPBLChatRoom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49905BDF2C65AFEA00C0F558 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49AD98092C6485C7001B1249 /* LoginView.swift */,
+				49C15F462C64CAEB0021090D /* RegisterView.swift */,
+				49905BDD2C65A7BC00C0F558 /* CTButton.swift */,
+				49C15F442C64C36C0021090D /* MainView.swift */,
+				491124B72C69AA6B00D0B158 /* ChatDetailView.swift */,
+				491124BD2C6A539300D0B158 /* MessageView.swift */,
+				49905BEC2C65F25D00C0F558 /* ChatView.swift */,
+				49905BEE2C66428D00C0F558 /* ProfileView.swift */,
+				491124BF2C6AEE0800D0B158 /* BubbleShape.swift */,
+				491124C32C6D9F9900D0B158 /* ImagePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49905BE02C65AFF100C0F558 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				49905BE22C65B05500C0F558 /* LoginViewViewModel.swift */,
+				49905BE42C65C15F00C0F558 /* RegisterViewViewModel.swift */,
+				49905BEA2C65EEA500C0F558 /* MainViewViewModel.swift */,
+				49905BF02C664D3E00C0F558 /* ChatViewViewModel.swift */,
+				49905BF22C664DEA00C0F558 /* ProfileViewViewModel.swift */,
+				491124B92C69D0AB00D0B158 /* ChatDetailViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		49905BE12C65B00000C0F558 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49905BE62C65C41200C0F558 /* User.swift */,
+				49905BE82C65E67900C0F558 /* Extension.swift */,
+				491124BB2C69D51400D0B158 /* Message.swift */,
+				491124C12C6B681F00D0B158 /* Team.swift */,
+				494BDA9F2C74C14000642528 /* ImageCache.swift */,
+				494BDAA12C74C2CE00642528 /* CachedAsyncImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		49AD97E72C646CED001B1249 = {
 			isa = PBXGroup;
 			children = (
 				49AD97F22C646CED001B1249 /* CPBLChatRoom */,
 				49AD97F12C646CED001B1249 /* Products */,
+				3C3587B1881256140AFE78B4 /* Pods */,
+				D6EB7D0C14CB54B955A74F05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +161,16 @@
 		49AD97F22C646CED001B1249 /* CPBLChatRoom */ = {
 			isa = PBXGroup;
 			children = (
+				49905BE12C65B00000C0F558 /* Model */,
+				49905BE02C65AFF100C0F558 /* ViewModel */,
+				49905BDF2C65AFEA00C0F558 /* View */,
+				49C15F412C64B6B20021090D /* Info.plist */,
+				49AD98052C64726D001B1249 /* GoogleService-Info.plist */,
+				49AD98072C647296001B1249 /* APPDelegate.swift */,
 				49AD97F32C646CED001B1249 /* CPBLChatRoomApp.swift */,
-				49AD97F52C646CED001B1249 /* ContentView.swift */,
 				49AD97F72C646CF5001B1249 /* Assets.xcassets */,
+				49AD980B2C64AC18001B1249 /* 圆体夏蝉丸ゴシック.ttf */,
+				49AD980D2C64AED1001B1249 /* Monaco.ttf */,
 				49AD97F92C646CF5001B1249 /* Preview Content */,
 			);
 			path = CPBLChatRoom;
@@ -67,6 +184,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D6EB7D0C14CB54B955A74F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B94AF3BA2EBA8CBF0C7878EF /* Pods_CPBLChatRoom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49AD97FE2C646CF5001B1249 /* Build configuration list for PBXNativeTarget "CPBLChatRoom" */;
 			buildPhases = (
+				8FA1CE5B000AEB36DB9EF04A /* [CP] Check Pods Manifest.lock */,
 				49AD97EC2C646CED001B1249 /* Sources */,
 				49AD97ED2C646CED001B1249 /* Frameworks */,
 				49AD97EE2C646CED001B1249 /* Resources */,
+				CB09306A5B756718BBFA249B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +252,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49AD980E2C64AED1001B1249 /* Monaco.ttf in Resources */,
+				49AD980C2C64ADC6001B1249 /* 圆体夏蝉丸ゴシック.ttf in Resources */,
 				49AD97FB2C646CF5001B1249 /* Preview Assets.xcassets in Resources */,
 				49AD97F82C646CF5001B1249 /* Assets.xcassets in Resources */,
+				49AD98062C64726D001B1249 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FA1CE5B000AEB36DB9EF04A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPBLChatRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB09306A5B756718BBFA249B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CPBLChatRoom/Pods-CPBLChatRoom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CPBLChatRoom/Pods-CPBLChatRoom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPBLChatRoom/Pods-CPBLChatRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49AD97EC2C646CED001B1249 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49AD97F62C646CED001B1249 /* ContentView.swift in Sources */,
+				49905BE52C65C15F00C0F558 /* RegisterViewViewModel.swift in Sources */,
+				49C15F452C64C36D0021090D /* MainView.swift in Sources */,
+				491124B82C69AA6B00D0B158 /* ChatDetailView.swift in Sources */,
+				49905BE92C65E67900C0F558 /* Extension.swift in Sources */,
+				49905BED2C65F25D00C0F558 /* ChatView.swift in Sources */,
+				49C15F472C64CAEB0021090D /* RegisterView.swift in Sources */,
+				49905BEF2C66428D00C0F558 /* ProfileView.swift in Sources */,
+				49905BE32C65B05500C0F558 /* LoginViewViewModel.swift in Sources */,
+				494BDAA02C74C14000642528 /* ImageCache.swift in Sources */,
+				491124BA2C69D0AB00D0B158 /* ChatDetailViewViewModel.swift in Sources */,
+				49905BF12C664D3E00C0F558 /* ChatViewViewModel.swift in Sources */,
+				491124BE2C6A539300D0B158 /* MessageView.swift in Sources */,
+				494BDAA22C74C2CE00642528 /* CachedAsyncImage.swift in Sources */,
+				49905BDE2C65A7BC00C0F558 /* CTButton.swift in Sources */,
 				49AD97F42C646CED001B1249 /* CPBLChatRoomApp.swift in Sources */,
+				491124C02C6AEE0900D0B158 /* BubbleShape.swift in Sources */,
+				49905BEB2C65EEA500C0F558 /* MainViewViewModel.swift in Sources */,
+				49AD980A2C6485C7001B1249 /* LoginView.swift in Sources */,
+				49905BF32C664DEA00C0F558 /* ProfileViewViewModel.swift in Sources */,
+				491124C22C6B681F00D0B158 /* Team.swift in Sources */,
+				491124BC2C69D51400D0B158 /* Message.swift in Sources */,
+				491124C42C6D9F9900D0B158 /* ImagePicker.swift in Sources */,
+				49AD98082C647296001B1249 /* APPDelegate.swift in Sources */,
+				49905BE72C65C41200C0F558 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,19 +460,24 @@
 		};
 		49AD97FF2C646CF5001B1249 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4005A9E2AC6497644A08FB /* Pods-CPBLChatRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CPBLChatRoom/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H9287UZN4;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CPBLChatRoom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,19 +493,24 @@
 		};
 		49AD98002C646CF5001B1249 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398034C6DAB8049030435E8F /* Pods-CPBLChatRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CPBLChatRoom/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H9287UZN4;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CPBLChatRoom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
