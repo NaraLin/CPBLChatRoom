@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>將使用您的照片庫，以便讓您選擇照片放入日記中 ☺️</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>圆体夏蝉丸ゴシック.ttf</string>

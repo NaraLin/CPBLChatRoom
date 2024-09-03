@@ -32,9 +32,6 @@ struct BubbleShape:Shape {
             path.addQuadCurve(to: CGPoint(x: rect.minX, y: rect.midY - arrowSize/2 - controlPointOffset),
                               control: CGPoint(x: rect.minX, y: rect.midY - arrowSize/2))
         }
-        
-        
-        
         return Path(path.cgPath)
     }
     

@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import CoreData
 
 extension MainView {
     enum Tab: View, CaseIterable {
-        case chat, profile
+        case chat, diary, profile
         
         var body: some View {
             content.tabItem{ tabLabel }
@@ -20,6 +21,8 @@ extension MainView {
             switch self {
                 case .chat:
                     ChatView()
+                case .diary:
+                    DiaryView(context: PersistenceController.shared.container.viewContext)
                 case .profile:
                     ProfileView()
             }
@@ -29,8 +32,11 @@ extension MainView {
             switch self {
                 case .chat:
                     Label("Chat", systemImage: "text.bubble")
+                case .diary:
+                    Label("Diary", systemImage: "square.and.pencil")
                 case .profile:
                     Label("Profile", systemImage: "person.circle")
+                    
             }
         }
         
@@ -58,3 +64,11 @@ struct MainView: View {
 //#Preview {
 //    MainView()
 //}
+
+struct contentView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView().previewDevice(.iPhoneSE)
+        MainView().previewDevice(.iPad)
+    }
+}
+

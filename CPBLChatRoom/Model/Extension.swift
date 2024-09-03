@@ -84,3 +84,7 @@ extension SecureField where Label == Text {
 }
 
 
+extension PreviewDevice {
+    static let iPhoneSE = PreviewDevice(rawValue: "iPhone SE (3rd generation)")
+    static let iPad = PreviewDevice(rawValue: "iPad Pro (12.9-inch) (6th generation)")
+}
