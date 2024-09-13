@@ -210,3 +210,7 @@ private struct InputBarView: View {
 #Preview {
     ChatDetailView(team: Team(id: "1", name: "統一獅", logo: "lions", color: .orange))
 }
+
+
+
+

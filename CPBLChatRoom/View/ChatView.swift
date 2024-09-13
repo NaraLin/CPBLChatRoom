@@ -15,12 +15,12 @@ struct ChatView: View {
     var body: some View {
         NavigationStack {
             ZStack(content: {
-                
                 Color.main
                 
                 //Content
                 ScrollView(.vertical) {
                     ForEach(viewModel.teams) { team in
+                        
                         NavigationLink(value: team) {
                             
                             Image(team.logo, label: Text(team.name))
@@ -41,13 +41,14 @@ struct ChatView: View {
             })
             .navigationTitle("球隊")
             .navigationBarTitleDisplayMode(.inline)
-            
-            
         }
         
     }
 }
 
-#Preview {
-    ChatView(viewModel: ChatViewViewModel())
+struct ChatDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        ChatView().previewDevice(.iPhoneSE)
+        ChatView().previewDevice(.iPad)
+    }
 }
